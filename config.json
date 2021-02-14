@@ -1,9 +1,14 @@
 {
     "name": "Simple Sound Player",
-    "version": "0.1.1",
-    "slug": "hello_world",
+    "version": "0.1.9",
+    "slug": "simple_sound_player",
     "description": "Plays a sound as an action.",
-    "arch": ["armhf"],
+    "arch": ["aarch64"],
+    "ports": {
+        "8099/tcp": 8099
+    },
+    "ingress": true,
+    "audio": true,
     "startup": "application",
     "boot": "auto",
     "options": {},
