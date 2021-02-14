@@ -3,6 +3,10 @@ FROM $BUILD_FROM
 
 ENV LANG C.UTF-8
 
+# install dependencies
+COPT requirements.txt /
+RUN pip3 install -r requirements.txt
+
 # Copy data for add-on
 COPY run.sh /
 RUN chmod a+x /run.sh
