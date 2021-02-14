@@ -1,6 +1,6 @@
 {
     "name": "Simple Sound Player",
-    "version": "0.1.9",
+    "version": "0.1.12",
     "slug": "simple_sound_player",
     "description": "Plays a sound as an action.",
     "arch": ["aarch64"],
