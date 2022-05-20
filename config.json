@@ -12,5 +12,6 @@
     "startup": "application",
     "boot": "auto",
     "options": {},
-    "schema": {}
+    "schema": {},
+    "init": false
 }
