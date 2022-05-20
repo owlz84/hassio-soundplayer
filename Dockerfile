@@ -1,5 +1,5 @@
-ARG BUILD_FROM
-FROM $BUILD_FROM
+#ARG BUILD_FROM
+FROM ghcr.io/home-assistant/armv7-base:3.15
 
 ENV LANG C.UTF-8
 
